@@ -1,8 +1,30 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/setup.typoscript">
+
+
+##############
+#### PAGE ####
+##############
 page {
     includeCSS {
-        main = EXT:xsite_sitepackage/Resources/Public/Css/main.css
+        theme = EXT:xsite_sitepackage/Resources/Public/Scss/Theme/theme.scss
     }
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
     includeJSFooterlibs {
-        main = EXT:xsite_sitepackage/Resources/Public/JavaScript/main.js
+
+    }
+
+    includeJSFooter {
+        xsite_sitepackage_scripts = EXT:xsite_sitepackage/Resources/Public/JavaScript/Dist/scripts.js
     }
 }
