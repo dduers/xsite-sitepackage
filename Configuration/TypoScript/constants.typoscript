@@ -1,0 +1,10 @@
+page {
+    template {
+        # cat=XSite Sitepackage: advanced/100/100; type=string; label=Layout Root Path: Path to layouts
+        layoutRootPath = EXT:xsite_sitepackage/Resources/Private/Layouts/
+        # cat=XSite Sitepackage: advanced/100/100; type=string; label=Partial Root Path: Path to partials
+        partialRootPath = EXT:xsite_sitepackage/Resources/Private/Patials/
+        # cat=XSite Sitepackage: advanced/100/100; type=string; label=Template Root Path: Path to templates
+        templateRootPath = EXT:xsite_sitepackage/Resources/Private/Templates/
+    }
+}

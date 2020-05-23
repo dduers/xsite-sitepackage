@@ -1,0 +1,13 @@
+{
+    "name": "dduers/xsite-sitepackage",
+    "description": "TYPO3 Sitepackage",
+    "type": "typo3-cms-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Duersteler",
+            "email": "daniel.duersteler@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,8 @@
+page {
+    includeCSS {
+        main = EXT:xsite_sitepackage/Resources/Public/Css/main.css
+    }
+    includeJSFooterlibs {
+        main = EXT:xsite_sitepackage/Resources/Public/JavaScript/main.js
+    }
+}
