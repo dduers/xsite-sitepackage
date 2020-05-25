@@ -38,6 +38,17 @@ plugin.bootstrap_package {
     }
 }
 
+plugin.tx_news {
+    view {
+        partialRootPath = EXT:xsite_sitepackage/Resources/Private/Partials/
+        templateRootPath = EXT:xsite_sitepackage/Resources/Private/Templates/
+        layoutRootPath = EXT:xsite_sitepackage/Resources/Private/Layouts/
+        twb.templateRootPath = EXT:xsite_sitepackage/Resources/Private/Templates/Styles/Twb/Templates/
+        twb.partialRootPath = EXT:xsite_sitepackage/Resources/Private/Templates/Styles/Twb/Partials/
+        twb.layoutRootPath = EXT:xsite_sitepackage/Resources/Private/Templates/Styles/Twb/Layouts/
+    }
+}
+
 
 ########################
 ### CONTENT ELEMENTS ###
@@ -63,11 +74,14 @@ plugin.bootstrap_package.settings.scss {
 ###################
 ### SITEPACKAGE ###
 ###################
-plugin.tx_news.settings.detail {
-    # cat=sitepackage: news (shariff); type=boolean; label=Enable shariff for news extension
-    showSocialShareButtons = 1
-    # cat=sitepackage: news (shariff); type=string; label=Comma separated social services for shariff in news extenstion
-    shariffServices = facebook,twitter,mail
-    # cat=sitepackage: news (shariff); type=boolean; label=Enable the shariff backend in the news extension
-    shariffEnableBackend = 1
+plugin.tx_news.settings
+    cssFile = EXT:xsite_sitepackage/Resources/Public/Css/news-basic.css
+    detail {
+        # cat=sitepackage: news (shariff); type=boolean; label=Enable shariff for news extension
+        showSocialShareButtons = 1
+        # cat=sitepackage: news (shariff); type=string; label=Comma separated social services for shariff in news extenstion
+        shariffServices = facebook,twitter,mail
+        # cat=sitepackage: news (shariff); type=boolean; label=Enable the shariff backend in the news extension
+        shariffEnableBackend = 1
+    }
 }
