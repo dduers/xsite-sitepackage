@@ -31,13 +31,7 @@ page {
 
 
 
-sitepackage {
-    settings {
-        news {
-            shariff {
-                services = {$sitepackage.settings.news.shariff.services}
-                enableBackend = {$sitepackage.settings.news.shariff.enableBackend}
-            }
-        }
-    }
+plugin.tx_news.settings.detail {
+    shariffServices = {$plugin.tx_news.settings.detail.shariffServices}
+    shariffEnableBackend = {$plugin.tx_news.settings.detail.shariffEnableBackend}
 }

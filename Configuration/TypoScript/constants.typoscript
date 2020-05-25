@@ -63,15 +63,10 @@ plugin.bootstrap_package.settings.scss {
 ###################
 ### SITEPACKAGE ###
 ###################
-sitepackage {
-    settings {
-        news {
-            shariff {
-                # cat=sitepackage: news (shariff); type=string; label=Comma separated social services for shariff in news extenstion
-                services = facebook,twitter,mail
-                # cat=sitepackage: news (shariff); type=boolean; label=Enable the shariff backend in the news extension
-                enableBackend = 1
-            }
-        }
-    }
+plugin.tx_news.settings.detail { 
+    # cat=sitepackage: news (shariff); type=string; label=Comma separated social services for shariff in news extenstion
+    shariffServices = facebook,twitter,mail
+    # cat=sitepackage: news (shariff); type=boolean; label=Enable the shariff backend in the news extension
+    shariffEnableBackend = 1
+
 }
