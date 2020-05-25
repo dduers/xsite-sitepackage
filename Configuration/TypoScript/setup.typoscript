@@ -34,7 +34,8 @@ page {
 sitepackage {
     settings {
         news {
-            socialServices = {$sitepackage.settings.news.socialServices}
+            services = {$sitepackage.settings.news.shariff.services}
+            enableBackend = {$sitepackage.settings.news.shariff.enableBackend}
         }
     }
 }

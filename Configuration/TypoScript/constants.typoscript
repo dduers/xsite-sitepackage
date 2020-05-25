@@ -66,8 +66,12 @@ plugin.bootstrap_package.settings.scss {
 sitepackage {
     settings {
         news {
-            # cat=sitepackage/settings; type=string; label=Comma separated social services for news extenstion
-            socialServices = facebook,twitter,mail
+            shariff {
+                # cat=sitepackage/settings/news/shariff; type=string; label=Comma separated social services for shariff in news extenstion
+                services = facebook,twitter,mail
+                # cat=sitepackage/settings/news/shariff; type=boolean; label=Enable the shariff backend in the news extension
+                enableBackend = 1
+            }
         }
     }
 }
