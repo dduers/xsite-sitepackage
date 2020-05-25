@@ -67,9 +67,9 @@ sitepackage {
     settings {
         news {
             shariff {
-                # cat=sitepackage/settings/news/shariff; type=string; label=Comma separated social services for shariff in news extenstion
+                # cat=sitepackage: news (shariff); type=string; label=Comma separated social services for shariff in news extenstion
                 services = facebook,twitter,mail
-                # cat=sitepackage/settings/news/shariff; type=boolean; label=Enable the shariff backend in the news extension
+                # cat=sitepackage: news (shariff); type=boolean; label=Enable the shariff backend in the news extension
                 enableBackend = 1
             }
         }

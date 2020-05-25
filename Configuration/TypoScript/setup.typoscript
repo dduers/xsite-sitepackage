@@ -34,8 +34,10 @@ page {
 sitepackage {
     settings {
         news {
-            services = {$sitepackage.settings.news.shariff.services}
-            enableBackend = {$sitepackage.settings.news.shariff.enableBackend}
+            shariff {
+                services = {$sitepackage.settings.news.shariff.services}
+                enableBackend = {$sitepackage.settings.news.shariff.enableBackend}
+            }
         }
     }
 }
