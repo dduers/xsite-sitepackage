@@ -58,3 +58,16 @@ plugin.bootstrap_package.settings.scss {
     primary = #eb3e4a
     secondary = #013859
 }
+
+
+###################
+### SITEPACKAGE ###
+###################
+sitepackage {
+    settings {
+        news {
+            # cat=sitepackage/settings; type=string; label=Comma separated social services for news extenstion
+            socialServices = facebook,twitter,mail
+        }
+    }
+}

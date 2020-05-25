@@ -28,3 +28,13 @@ page {
         xsite_sitepackage_scripts = EXT:xsite_sitepackage/Resources/Public/JavaScript/Dist/scripts.js
     }
 }
+
+
+
+sitepackage {
+    settings {
+        news {
+            socialServices = {$sitepackage.settings.news.socialServices}
+        }
+    }
+}
