@@ -30,8 +30,11 @@ page {
 }
 
 
-
+##############
+#### NEWS ####
+##############
 plugin.tx_news.settings.detail {
+    showSocialShareButtons = {$plugin.tx_news.settings.detail.shariffEnable}
     shariffServices = {$plugin.tx_news.settings.detail.shariffServices}
     shariffEnableBackend = {$plugin.tx_news.settings.detail.shariffEnableBackend}
 }
