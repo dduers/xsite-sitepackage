@@ -65,7 +65,7 @@ plugin.bootstrap_package.settings.scss {
 ###################
 plugin.tx_news.settings.detail {
     # cat=sitepackage: news (shariff); type=boolean; label=Enable shariff for news extension
-    shariffEnable = 1
+    showSocialShareButtons = 1
     # cat=sitepackage: news (shariff); type=string; label=Comma separated social services for shariff in news extenstion
     shariffServices = facebook,twitter,mail
     # cat=sitepackage: news (shariff); type=boolean; label=Enable the shariff backend in the news extension
