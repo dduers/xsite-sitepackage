@@ -12,6 +12,14 @@
         "lavitto/typo3-gridgallery": "^1.0",
         "lavitto/typo3-fancybox": "^1.0"
     },
+    "authors": [
+        {
+            "name": "Daniel Duersteler",
+            "email": "daniel.duersteler@gmail.com",
+            "homepage": "http://www.xsite.ch",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "XsiteWebDevelopmentDesign\\XsiteSitepackage\\": "Classes/"
